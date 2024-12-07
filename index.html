@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Natascha Haberl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arcade v3</title>
+</head>
+
+<body>
+    <div id="welcome">
+        <h1>
+            Welcome to the Arcade!
+            <br>Select a game to play!
+        </h1>
+        <button onclick="guessingGame()">Guessing Game</button>
+        <button onclick="magicEightBall()">Ask the Magic Eightball</button>
+        <button onclick="bnh()">Bear, Ninja, Hunter</button>
+    </div>
+    <div id="goodbye">
+        <h1>
+            Thanks for visiting the arcade!
+        </h1>
+        <table id="result"></table>
+        <br>
+        <img id="player-badge" src="">
+        <br>
+        <div id="badge-info"></div>
+        <hr>
+        <button onClick="window.location.reload()">Refresh Page</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
